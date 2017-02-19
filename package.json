@@ -1,0 +1,48 @@
+{
+  "name": "lucabro-linked-matrix",
+  "version": "1.0.0",
+  "description": "Class to managing linked matrix for web projects",
+  "main": "package/LinkedMatrix.js",
+  "types": "package/LinkedMatrix.d.ts",
+  "files": [
+    "package/"
+  ],
+  "directories": {
+    "test": "spec"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucabro81/LinkedMatrix.git"
+  },
+  "keywords": [
+    "linked-marix",
+    "infinite-scroll-omnidirectional"
+  ],
+  "author": "Luca Brognara",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucabro81/LinkedMatrix/issues"
+  },
+  "homepage": "https://github.com/lucabro81/LinkedMatrix#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/jasmine": "^2.5.40",
+    "@types/requirejs": "^2.1.28",
+    "gulp-replace": "^0.5.4",
+    "jasmine": "^2.5.2",
+    "core-js": "^2.4.1",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-requirejs": "^1.0.0-rc1",
+    "gulp-sourcemaps": "^1.9.1",
+    "gulp-typescript": "^3.1.3",
+    "gulp-uglify": "^2.0.0",
+    "signals": "^1.0.0",
+    "typescript": "^2.1.4",
+    "typings": "^2.1.0",
+    "yargs": "^6.5.0"
+  }
+}
